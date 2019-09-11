@@ -1,0 +1,22 @@
+p {
+  color: lightblue;
+  font-size: 100px;
+  background-color: rgba(245,245,220);
+  font-family: monospace;
+  border: 1px dashed black;
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.body-text {
+  font-weight: bold;
+}
+
+.square {
+  background: orange;
+  height: 40px;
+  width: 40px;
+  margin: 10px auto;
+
+}

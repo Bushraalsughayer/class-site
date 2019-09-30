@@ -1,0 +1,58 @@
+
+body {
+  margin: 0px;
+}
+.container {
+  height: 100vh;
+  background: #ff6f61;
+  display: flex;
+  flex-flow: row wrap;
+}
+.topbox {
+  margin: 20px 20px 0 20px;
+  height: 25%;
+  width: 100%;
+}
+.midbox {
+  margin: 20px;
+  height: 53%;
+  width: 47.2%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle {
+  height: 50%;
+  width: 50%;
+}
+
+.list {
+  margin: 5px;
+  height: 16%;
+  width: 100%;
+
+}
+.bottombox {
+  margin: 0 20px 0 20px;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  margin: 5px;
+  height: 100%;
+  width: 33.3%;
+}
+
+.pink {
+  background: pink;
+}
+
+.violet {
+  background: #6B5B95;
+}

@@ -1,0 +1,43 @@
+html body {
+
+ margin: 0;
+ padding: 0;
+}
+
+p {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 30px;
+  color: darkviolet;
+}
+
+img {
+  max-height: 500px;
+  max-width: 600px;
+
+}
+
+a {
+ text-decoration: none;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 60vw;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  display: none;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+.hover-img:hover .image {
+  display: block;
+}

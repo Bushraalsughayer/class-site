@@ -1,0 +1,36 @@
+p {
+ font-family: monospace;
+ font-size: 16px;
+
+}
+
+.menu {
+  display: inline;
+  border: 1px dashed;
+  margin: 5px
+}
+
+.subtitle {
+  border: 1px dashed;
+  background: pink;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.name {
+  float: left;
+  width: 20%;
+}
+
+.bio {
+  text-align: center;
+  width: 80%;
+}
+
+.title {
+  margin-top: 5px;
+  font-size: 60px;
+  background: green;
+  color: pink;
+}
